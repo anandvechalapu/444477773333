@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trigger>
+  <action>
+    <onclick>
+      <redirect page="global_settings" />
+    </onclick>
+  </action>
+
+  <navigation>
+    <link name="Home" page="home" />
+  </navigation>
+
+  <form>
+    <field name="Weighting Factor (0 mins)" required="true" min="0" max="100" error="SETUP INVALID PERCENTAGE/NUMERIC VALUE/ Number should be <=100" />
+    <field name="Weighting Factor (1-10 mins)" required="true" min="0" max="100" error="SETUP INVALID PERCENTAGE/NUMERIC VALUE/ Number should be <=100" />
+    <field name="Weighting Factor (11-20 mins)" required="true" min="0" max="100" error="SETUP INVALID PERCENTAGE/NUMERIC VALUE/ Number should be <=100" />
+    <field name="Weighting Factor (21-30 mins)" required="true" min="0" max="100" error="SETUP INVALID PERCENTAGE/NUMERIC VALUE/ Number should be <=100" />
+    <field name="Weighting Factor (31-60 mins)" required="true" min="0" max="100" error="SETUP INVALID PERCENTAGE/NUMERIC VALUE/ Number should be <=100" />
+    <field name="Weighting Factor (60+ mins)" required="true" min="0" max="100" error="SETUP INVALID PERCENTAGE/NUMERIC VALUE/ Number should be <=100" />
+    <field name="Delivery Cut-off Efficiency" required="true" min="0" max="100" error="SETUP INVALID PERCENTAGE/NUMERIC VALUE/ Number should be <=100" />
+    <field name="Maximum Cap Compensation" required="true" min="0" max="100" error="SETUP INVALID PERCENTAGE/NUMERIC VALUE/ Number should be <=100" />
+    <field name="Earliest SAT Cap Compensation" required="true" min="0" max="100" error="SETUP INVALID PERCENTAGE/NUMERIC VALUE/ Number should be <=100" />
+    <button type="submit" />
+  </form>
+</trigger>
