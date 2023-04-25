@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Trigger>
+  <UserStory>Help Tab</UserStory>
+  <AcceptanceCriteria>
+    <Criteria>Upon clicking or hovering over the "Help" tab, a drop-down menu should be displayed with the following options: Data Entry, Drill Down, Performance, Regional Data, Trend page, and Viewing Data.</Criteria>
+    <Criteria>When the user selects "Data Entry" from the Help menu, the NDM User Guide for Data Entry should be displayed, providing instructions on how to fill out the manual edit.</Criteria>
+    <Criteria>When the user selects "Drill Down" from the Help menu, the NDM User Guide for Drill Down should be displayed, providing instructions on how to use the drill-down functionality.</Criteria>
+    <Criteria>When the user selects "Performance" from the Help menu, the NDM User Guide for Performance should be displayed, providing instructions on how to compare performance data and download related data screens.</Criteria>
+    <Criteria>When the user selects "Regional Data" from the Help menu, the NDM User Guide for Regional Data should be displayed, providing instructions on how to view data based on specific area constraints and how to drill down into finer details.</Criteria>
+    <Criteria>When the user selects "Trend page" from the Help menu, the NDM User Guide for Trend should be displayed, providing instructions on how to use the trend page to graphically represent the FoDI.</Criteria>
+    <Criteria>When the user selects "Viewing Data" from the Help menu, the NDM User Guide for Viewing Data should be displayed, providing instructions on how to select date ranges within the Distribution.</Criteria>
+  </AcceptanceCriteria>
+  <AcceptanceTesting>
+    <Test>Verify that clicking or hovering over the "Help" tab displays a drop-down menu with the following options: Data Entry, Drill Down, Performance, Regional Data, Trend page, and Viewing Data.</Test>
+    <Test>Verify that selecting "Data Entry" from the Help menu displays the NDM User Guide for Data Entry, providing instructions on how to fill out the manual edit.</Test>
+    <Test>Verify that selecting "Drill Down" from the Help menu displays the NDM User Guide for Drill Down, providing instructions on how to use the drill-down functionality.</Test>
+    <Test>Verify that selecting "Performance" from the Help menu displays the NDM User Guide for Performance, providing instructions on how to compare performance data and download related data screens.</Test>
+    <Test>Verify that selecting "Regional Data" from the Help menu displays the NDM User Guide for Regional Data, providing instructions on how to view data based on specific area constraints and how to drill down into finer details.</Test>
+    <Test>Verify that selecting "Trend page" from the Help menu displays the NDM User Guide for Trend, providing instructions on how to use the trend page to graphically represent the FoDI.</Test>
+    <Test>Verify that selecting "Viewing Data" from the Help menu displays the NDM User Guide for Viewing Data, providing instructions on how to select date ranges within the Distribution.</Test>
+  </AcceptanceTesting>
+  <DefinitionOfDone>
+    <Done>Make sure that the user guides provide clear and comprehensive instructions that are easy to follow and understand.</Done>
+    <Done>Code should be developed and tested according to the acceptance criteria.</Done>
+    <Done>Code should be reviewed and approved by at least one other developer.</Done>
+    <Done>System should be deployed to production environment.</Done>
+    <Done>User interface should be reviewed and approved by the product owner.</Done>
+    <Done>The system should be documented, and the acceptance criteria, acceptance testing, should meet.</Done>
+  </DefinitionOfDone>
+</Trigger>
