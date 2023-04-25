@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<trigger>
+  <name>Global Settings</name>
+  <description>Trigger to access global settings screen</description>
+  <event>
+    <name>Click on Global Settings</name>
+  </event>
+  <action>
+    <name>Redirect to Global Settings screen</name>
+    <type>Redirect</type>
+    <url>/global-settings</url>
+  </action>
+  <validations>
+    <name>Weighting Factor</name>
+    <type>Numeric</type>
+    <conditions>
+      <condition>
+        <name>The field should not be empty</name>
+        <operator>!=</operator>
+        <value></value>
+      </condition>
+      <condition>
+        <name>The value should be a positive number</name>
+        <operator>></operator>
+        <value>0</value>
+      </condition>
+      <condition>
+        <name>The value should be <= 100</name>
+        <operator><=</operator>
+        <value>100</value>
+      </condition>
+    </conditions>
+    <message>SETUP INVALID PERCENTAGE/NUMERIC VALUE/ Number should be <=100</message>
+  </validations>
+  <action>
+    <name>Submit Entered Details</name>
+    <type>Submit</type>
+    <url></url>
+    <data>
+      <name>Weighting Factor (0 mins)</name>
+      <value></value>
+    </data>
+    <data>
+      <name>Weighting Factor (1-10 mins)</name>
+      <value></value>
+    </data>
+    <data>
+      <name>Weighting Factor (11-20 mins)</name>
+      <value></value>
+    </data>
+    <data>
+      <name>Weighting Factor (21-30 mins)</name>
+      <value></value>
+    </data>
+    <data>
+      <name>Weighting Factor (31-60 mins)</name>
+      <value></value>
+    </data>
+    <data>
+      <name>Weighting Factor (60+ mins)</name>
+      <value></value>
+    </data>
+    <data>
+      <name>Delivery Cut-off Efficiency</name>
+      <value></value>
+    </data>
+    <data>
+      <name>Maximum Cap Compensation</name>
+      <value></value>
+    </data>
+    <data>
+      <name>Earliest SAT Cap Compensation</name>
+      <value></value>
+    </data>
+  </action>
+  <action>
+    <name>Redirect to Home Screen</name>
+    <type>Redirect</type>
+    <url>/home</url>
+  </action>
+</trigger>
